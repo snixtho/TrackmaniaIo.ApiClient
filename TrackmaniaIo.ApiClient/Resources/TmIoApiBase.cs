@@ -8,12 +8,14 @@ public abstract class TmIoApiBase<T> : ApiBase<T> where T : TmIoApiBase<T>
 {
     private readonly string? _apiKey;
 
-    protected TmIoApiBase(string? apiKey=null)
+    protected TmIoApiBase(string projectName, string contact, string? apiKey=null)
     {
         _apiKey = apiKey;
         
         Configure(options =>
         {
+            options.DefaultUserAgent = $"{projectName} | Contact: {contact}";
+            
             // avoid tm.io rate limits
             options.UseRateLimit = true;
             options.RateLimitTimespan = TimeSpan.FromMinutes(1);
