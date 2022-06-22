@@ -3,12 +3,13 @@ using TrackmaniaIo.ApiClient.Utils.ValueConverters;
 
 namespace TrackmaniaIo.ApiClient.Models;
 
-public class TmIoBasicCompetitionInfo
+public class TmIoCotdBasicCompetitionInfo
 {
     [JsonConverter(typeof(UnixToDatetimeConverter))]
-    public DateTime Timestamp { get; set; }
-    public int ClubId { get; set; }
-    public int CompetitionId { get; set; }
+    public DateTime StartTime { get; set; }
+    [JsonConverter(typeof(UnixToDatetimeConverter))]
+    public DateTime EndTime { get; set; }
     public long Id { get; set; }
+    public long Players { get; set; }
     public string? Name { get; set; }
 }

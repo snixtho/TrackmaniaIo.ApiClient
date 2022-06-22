@@ -13,9 +13,9 @@ public class CotdResourceApi : TmIoApiBase<CotdResourceApi>
     /// </summary>
     /// <param name="offset">Offset from latest COTD to get the list from</param>
     /// <returns></returns>
-    public Task<TmIoCompetitionList?> GetCotdListAsync(int offset = 0) =>
+    public Task<TmIoCotdCompetitionList?> GetCotdListAsync(int offset = 0) =>
         WithApiKey()
-            .GetJsonAsync<TmIoCompetitionList>("/cotd/{offset}", offset);
+            .GetJsonAsync<TmIoCotdCompetitionList>("/cotd/{offset}", offset);
 
     /// <summary>
     /// Get the wins leaderboard.

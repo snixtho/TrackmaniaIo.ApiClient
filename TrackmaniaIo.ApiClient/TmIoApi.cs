@@ -8,6 +8,7 @@ public class TmIoApi
     public CotdResourceApi Cotd { get; private set; }
     public MapsResourceApi Maps { get; private set; }
     public LeaderboardResourceApi Leaderboards { get; private set; }
+    public CompetitionResource Competitions { get; private set; }
 
     public TmIoApi(string projectName, string contact) => Initialize(projectName, contact);
     public TmIoApi(string projectName, string contact, string? apiKey=null) => Initialize(projectName, contact, apiKey);
@@ -18,5 +19,6 @@ public class TmIoApi
         Cotd = new CotdResourceApi(projectName, contact, apiKey);
         Maps = new MapsResourceApi(projectName, contact, apiKey);
         Leaderboards = new LeaderboardResourceApi(projectName, contact, apiKey);
+        Competitions = new CompetitionResource(projectName, contact, apiKey);
     }
 }
