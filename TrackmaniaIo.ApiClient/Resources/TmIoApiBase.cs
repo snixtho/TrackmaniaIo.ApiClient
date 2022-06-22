@@ -1,4 +1,5 @@
-﻿using Hawf.Attributes;
+﻿using System.Web;
+using Hawf.Attributes;
 using Hawf.Client;
 
 namespace TrackmaniaIo.ApiClient.Resources;
@@ -14,7 +15,7 @@ public abstract class TmIoApiBase<T> : ApiBase<T> where T : TmIoApiBase<T>
         
         Configure(options =>
         {
-            options.DefaultUserAgent = $"{projectName} | Contact: {contact}";
+            options.DefaultUserAgent = HttpUtility.UrlEncode($"Project {projectName}; Contact {contact}");
             
             // avoid tm.io rate limits
             options.UseRateLimit = true;
@@ -25,5 +26,12 @@ public abstract class TmIoApiBase<T> : ApiBase<T> where T : TmIoApiBase<T>
             options.CacheResponse = true;
             options.DefaultCacheTime = TimeSpan.FromMinutes(1);
         });
+    }
+
+    protected T WithApiKey()
+    {
+        if (_apiKey != null)
+            WithBearerToken(_apiKey);
+        return (T) this;
     }
 }

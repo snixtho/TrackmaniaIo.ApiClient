@@ -1,12 +1,46 @@
 ﻿using Hawf.Client;
+using TrackmaniaIo.ApiClient.Models;
 
 namespace TrackmaniaIo.ApiClient.Resources;
 
 public class TotdResourceApi : TmIoApiBase<TotdResourceApi>
 {
-    public TotdResourceApi(string projectName, string contact, string? apiKey = null) : base(projectName, contact, apiKey)
+    private readonly TmIoApi _tmIoApi;
+    
+    public TotdResourceApi(string projectName, string contact, TmIoApi tmIoApi, string? apiKey = null) : base(projectName, contact, apiKey)
     {
+        _tmIoApi = tmIoApi;
     }
-    
-    
+
+    /// <summary>
+    /// Get a month's list of TOTDs.
+    /// </summary>
+    /// <param name="offset">Month offset from current month.</param>
+    /// <returns></returns>
+    public Task<TmIoTotdMonth?> GetMonthAsync(int offset = 0) =>
+        WithApiKey()
+            .GetJsonAsync<TmIoTotdMonth>("/totd/{offset}", offset);
+
+    /// <summary>
+    /// Get the identifiers for the current TOTD.
+    /// </summary>
+    /// <returns></returns>
+    public Task<TmIoMapId?> GetTodayMapIdAsync() =>
+        WithApiKey()
+            .GetJsonAsync<TmIoMapId>("/totd/today");
+
+    /// <summary>
+    /// Get map info of current TOTD.
+    /// </summary>
+    /// <returns></returns>
+    /// <exception cref="InvalidOperationException"></exception>
+    public async Task<TmIoMapInfo?> GetTotdAsync()
+    {
+        var todayId = await GetTodayMapIdAsync();
+
+        if (todayId == null)
+            throw new InvalidOperationException("Failed to get ID of today's TOTD");
+
+        return await _tmIoApi.Maps.GetMapAsync(todayId.Uid);
+    }
 }

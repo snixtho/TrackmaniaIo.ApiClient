@@ -6,4 +6,5 @@ public class TmIoTotdDay
     public int WeekDay { get; set; }
     public int MonthDay { get; set; }
     public string? LeaderboardUid { get; set; }
+    public TmIoMapInfo? Map { get; set; }
 }
