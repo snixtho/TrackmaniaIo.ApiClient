@@ -4,11 +4,34 @@ namespace TrackmaniaIo.ApiClient;
 
 public class TmIoApi
 {
+    /// <summary>
+    /// Track of the Day
+    /// </summary>
     public TotdResourceApi Totd { get; private set; }
+    /// <summary>
+    /// Cup of the day
+    /// </summary>
     public CotdResourceApi Cotd { get; private set; }
+    /// <summary>
+    /// Uploaded maps
+    /// </summary>
     public MapsResourceApi Maps { get; private set; }
+    /// <summary>
+    /// Campaigns, maps & general leaderboards
+    /// </summary>
     public LeaderboardResourceApi Leaderboards { get; private set; }
+    /// <summary>
+    /// Events and competitions
+    /// </summary>
     public CompetitionResource Competitions { get; private set; }
+    /// <summary>
+    /// Online rooms and servers
+    /// </summary>
+    public RoomsResource Rooms { get; private set; }
+    /// <summary>
+    /// Club campaigns
+    /// </summary>
+    public CampaignsResource Campaigns { get; private set; }
 
     public TmIoApi(string projectName, string contact) => Initialize(projectName, contact);
     public TmIoApi(string projectName, string contact, string? apiKey=null) => Initialize(projectName, contact, apiKey);
@@ -20,5 +43,7 @@ public class TmIoApi
         Maps = new MapsResourceApi(projectName, contact, apiKey);
         Leaderboards = new LeaderboardResourceApi(projectName, contact, apiKey);
         Competitions = new CompetitionResource(projectName, contact, apiKey);
+        Rooms = new RoomsResource(projectName, contact, apiKey);
+        Campaigns = new CampaignsResource(projectName, contact, apiKey);
     }
 }
