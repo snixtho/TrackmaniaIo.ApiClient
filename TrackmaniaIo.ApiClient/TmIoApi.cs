@@ -32,6 +32,10 @@ public class TmIoApi
     /// Club campaigns
     /// </summary>
     public CampaignsResource Campaigns { get; private set; }
+    /// <summary>
+    /// Club resources
+    /// </summary>
+    public ClubsResource Clubs { get; set; }
 
     public TmIoApi(string projectName, string contact) => Initialize(projectName, contact);
     public TmIoApi(string projectName, string contact, string? apiKey=null) => Initialize(projectName, contact, apiKey);
@@ -45,5 +49,6 @@ public class TmIoApi
         Competitions = new CompetitionResource(projectName, contact, apiKey);
         Rooms = new RoomsResource(projectName, contact, apiKey);
         Campaigns = new CampaignsResource(projectName, contact, apiKey);
+        Clubs = new ClubsResource(projectName, contact, apiKey);
     }
 }
