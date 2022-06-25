@@ -1,5 +1,7 @@
 ﻿using Hawf.Client;
 using TrackmaniaIo.ApiClient.Models;
+using TrackmaniaIo.ApiClient.Models.Maps;
+using TrackmaniaIo.ApiClient.Models.Totd;
 
 namespace TrackmaniaIo.ApiClient.Resources;
 

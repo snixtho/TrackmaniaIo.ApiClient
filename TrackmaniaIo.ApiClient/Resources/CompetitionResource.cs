@@ -1,4 +1,5 @@
 ﻿using TrackmaniaIo.ApiClient.Models;
+using TrackmaniaIo.ApiClient.Models.Events;
 
 namespace TrackmaniaIo.ApiClient.Resources;
 

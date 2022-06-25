@@ -1,4 +1,5 @@
 ﻿using TrackmaniaIo.ApiClient.Models;
+using TrackmaniaIo.ApiClient.Models.Clubs;
 using TrackmaniaIo.ApiClient.Models.Enums;
 
 namespace TrackmaniaIo.ApiClient.Resources;
