@@ -2,9 +2,9 @@
 
 namespace TrackmaniaIo.ApiClient.Resources;
 
-public class MapsResourceApi : TmIoApiBase<MapsResourceApi>
+public class MapsResource : TmIoApiBase<MapsResource>
 {
-    public MapsResourceApi(string projectName, string contact, string? apiKey = null) : base(projectName, contact, apiKey)
+    public MapsResource(string projectName, string contact, string? apiKey = null) : base(projectName, contact, apiKey)
     {
     }
 

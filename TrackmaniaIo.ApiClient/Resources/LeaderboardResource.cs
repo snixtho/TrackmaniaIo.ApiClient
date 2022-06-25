@@ -2,9 +2,9 @@
 
 namespace TrackmaniaIo.ApiClient.Resources;
 
-public class LeaderboardResourceApi : TmIoApiBase<LeaderboardResourceApi>
+public class LeaderboardResource : TmIoApiBase<LeaderboardResource>
 {
-    public LeaderboardResourceApi(string projectName, string contact, string? apiKey = null) : base(projectName, contact, apiKey)
+    public LeaderboardResource(string projectName, string contact, string? apiKey = null) : base(projectName, contact, apiKey)
     {
     }
 

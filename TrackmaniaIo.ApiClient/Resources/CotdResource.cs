@@ -2,9 +2,9 @@
 
 namespace TrackmaniaIo.ApiClient.Resources;
 
-public class CotdResourceApi : TmIoApiBase<CotdResourceApi>
+public class CotdResource : TmIoApiBase<CotdResource>
 {
-    public CotdResourceApi(string projectName, string contact, string? apiKey = null) : base(projectName, contact, apiKey)
+    public CotdResource(string projectName, string contact, string? apiKey = null) : base(projectName, contact, apiKey)
     {
     }
 

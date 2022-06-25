@@ -3,11 +3,11 @@ using TrackmaniaIo.ApiClient.Models.Totd;
 
 namespace TrackmaniaIo.ApiClient.Resources;
 
-public class TotdResourceApi : TmIoApiBase<TotdResourceApi>
+public class TotdResource : TmIoApiBase<TotdResource>
 {
     private readonly TmIoApi _tmIoApi;
     
-    public TotdResourceApi(string projectName, string contact, TmIoApi tmIoApi, string? apiKey = null) : base(projectName, contact, apiKey)
+    public TotdResource(string projectName, string contact, TmIoApi tmIoApi, string? apiKey = null) : base(projectName, contact, apiKey)
     {
         _tmIoApi = tmIoApi;
     }
