@@ -36,8 +36,18 @@ public class TmIoApi
     /// Club resources
     /// </summary>
     public ClubsResource Clubs { get; private set; }
-    
+    /// <summary>
+    /// Player rankings
+    /// </summary>
     public TopPlayersResource TopPlayers { get; private set; }
+    /// <summary>
+    /// Player lists, info and search
+    /// </summary>
+    public PlayersResource Players { get; private set; }
+    /// <summary>
+    /// In-game player generated advertisement
+    /// </summary>
+    public ManiaPubResource ManiaPubs { get; private set; }
 
     public TmIoApi(string projectName, string contact) => Initialize(projectName, contact);
     public TmIoApi(string projectName, string contact, string? apiKey=null) => Initialize(projectName, contact, apiKey);
@@ -53,5 +63,7 @@ public class TmIoApi
         Campaigns = new CampaignsResource(projectName, contact, apiKey);
         Clubs = new ClubsResource(projectName, contact, apiKey);
         TopPlayers = new TopPlayersResource(projectName, contact, apiKey);
+        Players = new PlayersResource(projectName, contact, apiKey);
+        ManiaPubs = new ManiaPubResource(projectName, contact, apiKey);
     }
 }
