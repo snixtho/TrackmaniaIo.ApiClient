@@ -1,5 +1,4 @@
-﻿using TrackmaniaIo.ApiClient.Models;
-using TrackmaniaIo.ApiClient.Models.Players;
+﻿using TrackmaniaIo.ApiClient.Models.Players;
 
 namespace TrackmaniaIo.ApiClient.Resources;
 

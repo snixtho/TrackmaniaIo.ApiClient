@@ -1,5 +1,4 @@
-﻿using TrackmaniaIo.ApiClient.Models;
-using TrackmaniaIo.ApiClient.Models.Campaigns;
+﻿using TrackmaniaIo.ApiClient.Models.Campaigns;
 
 namespace TrackmaniaIo.ApiClient.Resources;
 

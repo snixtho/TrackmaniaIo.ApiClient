@@ -1,6 +1,4 @@
-﻿using Hawf.Client;
-using TrackmaniaIo.ApiClient.Models;
-using TrackmaniaIo.ApiClient.Models.Maps;
+﻿using TrackmaniaIo.ApiClient.Models.Maps;
 using TrackmaniaIo.ApiClient.Models.Totd;
 
 namespace TrackmaniaIo.ApiClient.Resources;
@@ -42,6 +40,9 @@ public class TotdResourceApi : TmIoApiBase<TotdResourceApi>
 
         if (todayId == null)
             throw new InvalidOperationException("Failed to get ID of today's TOTD");
+
+        if (todayId.Uid == null)
+            throw new InvalidOperationException("Failed to get the UID of map, cannot continue.");
 
         return await _tmIoApi.Maps.GetMapAsync(todayId.Uid);
     }

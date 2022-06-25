@@ -1,5 +1,4 @@
-﻿using TrackmaniaIo.ApiClient.Models;
-using TrackmaniaIo.ApiClient.Models.Cotd;
+﻿using TrackmaniaIo.ApiClient.Models.Cotd;
 
 namespace TrackmaniaIo.ApiClient.Resources;
 
@@ -21,6 +20,7 @@ public class CotdResourceApi : TmIoApiBase<CotdResourceApi>
     /// <summary>
     /// Get the wins leaderboard.
     /// </summary>
+    /// <param name="includeReruns">Whether to include cotd re-runs</param>
     /// <param name="offset">Offset from position 0</param>
     /// <returns></returns>
     public Task<TmIoCotdLeaderboard?> GetWinsLeaderboardAsync(bool includeReruns = false, int offset = 0) =>
@@ -30,6 +30,7 @@ public class CotdResourceApi : TmIoApiBase<CotdResourceApi>
     /// <summary>
     /// Get the win-streak leaderboard.
     /// </summary>
+    /// <param name="includeReruns">Whether to include cotd re-runs</param>
     /// <param name="offset">Offset from position 0</param>
     /// <returns></returns>
     public Task<TmIoCotdLeaderboard?> GetWinStreakLeaderboardAsync(bool includeReruns = false, int offset = 0) =>
@@ -39,6 +40,7 @@ public class CotdResourceApi : TmIoApiBase<CotdResourceApi>
     /// <summary>
     /// Get the total played leaderboard.
     /// </summary>
+    /// <param name="includeReruns">Whether to include cotd re-runs</param>
     /// <param name="offset">Offset from position 0</param>
     /// <returns></returns>
     public Task<TmIoCotdLeaderboard?> GetTotalPlayedLeaderboardAsync(bool includeReruns = false, int offset = 0) =>
