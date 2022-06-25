@@ -3,5 +3,5 @@
 public class TmIoPlayerSearchEntry
 {
     public TmIoPlayerInfo? Player { get; set; }
-    public TmIoMatchmakingInfo? Matchmaking { get; set; }
+    public IEnumerable<TmIoMatchmakingInfo>? Matchmaking { get; set; }
 }

@@ -12,7 +12,7 @@ public class ManiaPubResource : TmIoApiBase<ManiaPubResource>
     /// Get a info list of in-game ManiaPubs.
     /// </summary>
     /// <returns></returns>
-    public Task<TmIoAd[]?> GetManiaPubsAsync() =>
+    public Task<TmIoAdList?> GetManiaPubsAsync() =>
         WithApiKey()
-            .GetJsonAsync<TmIoAd[]>("/ads");
+            .GetJsonAsync<TmIoAdList>("/ads");
 }
