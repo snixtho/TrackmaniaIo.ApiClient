@@ -1,4 +1,7 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.Reflection;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using TrackmaniaIo.ApiClient.Resources;
 
 namespace TrackmaniaIo.ApiClient.Models;
 
@@ -11,32 +14,54 @@ public class TmIoMatchmakingInfo
     public int TypeId { get; set; }
     public string? TypeName { get; set; }
     
-    public Dictionary<string, object>? Division { get; set; }
+    public Dictionary<string, JsonElement>? Division { get; set; }
     [JsonPropertyName("division_next")]
-    public Dictionary<string, object>? DivisionNext { get; set; }
+    public Dictionary<string, JsonElement>? DivisionNext { get; set; }
 
     /// <summary>
     /// Convert the internal Division properties to objects rather than dictionaries.
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <returns></returns>
-    public TmIoMatchmakingInfo<T> ConvertToObject<T>()
+    public TmIoMatchmakingInfo<T> ToObject<T>() where T : TmIoDivision
     {
         var info = new TmIoMatchmakingInfo<T>
         {
             Division = Activator.CreateInstance<T>(),
-            DivisionNext = Activator.CreateInstance<T>()
+            DivisionNext = Activator.CreateInstance<T>(),
+            AccountId = AccountId,
+            Progression = Progression,
+            Rank = Rank,
+            Score = Score,
+            TypeId = TypeId,
+            TypeName = TypeName
         };
 
         var type = typeof(T);
 
         if (Division != null)
             foreach (var (key, value) in Division)
-                type.GetProperty(key)?.SetValue(info.Division, value, null);
+            {
+                var property = type.GetProperty(key,
+                    BindingFlags.Instance | BindingFlags.IgnoreCase | BindingFlags.Public);
+                
+                if (property == null)
+                    continue;
+                
+                property.SetValue(info.Division, value.Deserialize(property.PropertyType));
+            }
 
         if (DivisionNext != null)
             foreach (var (key, value) in DivisionNext)
-                type.GetProperty(key)?.SetValue(info.DivisionNext, value, null);
+            {
+                var property = type.GetProperty(key,
+                    BindingFlags.Instance | BindingFlags.IgnoreCase | BindingFlags.Public);
+                
+                if (property == null)
+                    continue;
+                
+                property.SetValue(info.DivisionNext, value.Deserialize(property.PropertyType));
+            }
 
         return info;
     }
