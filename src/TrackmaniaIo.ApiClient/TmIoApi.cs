@@ -9,7 +9,7 @@ public class TmIoApi
     /// </summary>
     public TotdResource Totd { get; private set; }
     /// <summary>
-    /// Cup of the day
+    /// Cup of the day info and leaderboards
     /// </summary>
     public CotdResource Cotd { get; private set; }
     /// <summary>
@@ -17,7 +17,7 @@ public class TmIoApi
     /// </summary>
     public MapsResource Maps { get; private set; }
     /// <summary>
-    /// Campaigns, maps & general leaderboards
+    /// Campaigns, maps and general leaderboards
     /// </summary>
     public LeaderboardResource Leaderboards { get; private set; }
     /// <summary>
@@ -37,7 +37,7 @@ public class TmIoApi
     /// </summary>
     public ClubsResource Clubs { get; private set; }
     /// <summary>
-    /// Player rankings
+    /// General player rankings
     /// </summary>
     public TopPlayersResource TopPlayers { get; private set; }
     /// <summary>

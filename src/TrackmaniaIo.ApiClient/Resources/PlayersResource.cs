@@ -2,6 +2,9 @@
 
 namespace TrackmaniaIo.ApiClient.Resources;
 
+/// <summary>
+/// Player lists, info and search
+/// </summary>
 public class PlayersResource : TmIoApiBase<PlayersResource>
 {
     public PlayersResource(string projectName, string contact, string? apiKey = null) : base(projectName, contact, apiKey)

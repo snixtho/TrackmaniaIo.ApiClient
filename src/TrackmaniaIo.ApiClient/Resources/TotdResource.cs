@@ -3,6 +3,9 @@ using TrackmaniaIo.ApiClient.Models.Totd;
 
 namespace TrackmaniaIo.ApiClient.Resources;
 
+/// <summary>
+/// Track of the Day
+/// </summary>
 public class TotdResource : TmIoApiBase<TotdResource>
 {
     private readonly TmIoApi _tmIoApi;
@@ -33,7 +36,9 @@ public class TotdResource : TmIoApiBase<TotdResource>
     /// Get map info of current TOTD.
     /// </summary>
     /// <returns></returns>
-    /// <exception cref="InvalidOperationException"></exception>
+    /// <exception cref="InvalidOperationException">
+    /// Throws if TOTD map ids failed to be retrieved
+    /// </exception>
     public async Task<TmIoMapInfo?> GetTotdAsync()
     {
         var todayId = await GetTodayMapIdAsync();

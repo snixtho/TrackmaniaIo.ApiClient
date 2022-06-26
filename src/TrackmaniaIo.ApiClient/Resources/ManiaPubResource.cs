@@ -2,6 +2,9 @@
 
 namespace TrackmaniaIo.ApiClient.Resources;
 
+/// <summary>
+/// In-game player generated advertisement
+/// </summary>
 public class ManiaPubResource : TmIoApiBase<ManiaPubResource>
 {
     public ManiaPubResource(string projectName, string contact, string? apiKey = null) : base(projectName, contact, apiKey)

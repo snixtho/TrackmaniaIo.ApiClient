@@ -2,6 +2,9 @@
 
 namespace TrackmaniaIo.ApiClient.Resources;
 
+/// <summary>
+/// Cup of the day info and leaderboards
+/// </summary>
 public class CotdResource : TmIoApiBase<CotdResource>
 {
     public CotdResource(string projectName, string contact, string? apiKey = null) : base(projectName, contact, apiKey)

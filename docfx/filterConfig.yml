@@ -1,0 +1,10 @@
+apiRules:
+- exclude:
+    uidRegex: ^System\.Object
+    type: Type
+- exclude:
+    uidRegex: ^Hawf
+    type: Namespace
+- exclude:
+    uidRegex: ^TrackmaniaIo.ApiClient.Resources.TmIoApiBase
+    Type: Type

@@ -3,6 +3,9 @@ using TrackmaniaIo.ApiClient.Models.Enums;
 
 namespace TrackmaniaIo.ApiClient.Resources;
 
+/// <summary>
+/// Club resources
+/// </summary>
 public class ClubsResource : TmIoApiBase<ClubsResource>
 {
     public ClubsResource(string projectName, string contact, string? apiKey = null) : base(projectName, contact, apiKey)

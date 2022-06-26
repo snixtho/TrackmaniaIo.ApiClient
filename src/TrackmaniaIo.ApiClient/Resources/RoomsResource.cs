@@ -2,6 +2,9 @@
 
 namespace TrackmaniaIo.ApiClient.Resources;
 
+/// <summary>
+/// Online rooms and servers
+/// </summary>
 public class RoomsResource : TmIoApiBase<RoomsResource>
 {
     public RoomsResource(string projectName, string contact, string? apiKey = null) : base(projectName, contact, apiKey)

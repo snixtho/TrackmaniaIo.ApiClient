@@ -2,6 +2,9 @@
 
 namespace TrackmaniaIo.ApiClient.Resources;
 
+/// <summary>
+/// Club campaigns
+/// </summary>
 public class CampaignsResource : TmIoApiBase<CampaignsResource>
 {
     public CampaignsResource(string projectName, string contact, string? apiKey = null) : base(projectName, contact, apiKey)

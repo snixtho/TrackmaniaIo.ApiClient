@@ -2,6 +2,9 @@
 
 namespace TrackmaniaIo.ApiClient.Resources;
 
+/// <summary>
+/// Events and competitions
+/// </summary>
 public class CompetitionResource : TmIoApiBase<CompetitionResource>
 {
     public CompetitionResource(string projectName, string contact, string? apiKey = null) : base(projectName, contact, apiKey)

@@ -3,6 +3,9 @@ using TrackmaniaIo.ApiClient.Models.Players;
 
 namespace TrackmaniaIo.ApiClient.Resources;
 
+/// <summary>
+/// General player rankings
+/// </summary>
 public class TopPlayersResource : TmIoApiBase<TopPlayersResource>
 {
     public TopPlayersResource(string projectName, string contact, string? apiKey = null) : base(projectName, contact, apiKey)

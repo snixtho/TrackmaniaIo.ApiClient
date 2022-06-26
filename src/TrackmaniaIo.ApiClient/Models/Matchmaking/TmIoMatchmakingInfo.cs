@@ -22,7 +22,10 @@ public class TmIoMatchmakingInfo
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <returns></returns>
-    public TmIoMatchmakingInfo<T> ToObject<T>() where T : TmIoDivision
+    /// <remarks>
+    /// You can convert the Division instances to either `TmIoMmDivision` or `TmIoRoyalDivision`
+    /// </remarks>
+    public TmIoMatchmakingInfo<T> ToDivisionType<T>() where T : TmIoDivision
     {
         var info = new TmIoMatchmakingInfo<T>
         {
