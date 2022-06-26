@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     env:
-      SOLUTION: 'TrackmaniaIo.ApiClient.sln'
+      SOLUTION: 'src/TrackmaniaIo.ApiClient.sln'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
