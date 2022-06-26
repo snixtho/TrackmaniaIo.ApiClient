@@ -8,3 +8,6 @@ apiRules:
 - exclude:
     uidRegex: ^TrackmaniaIo.ApiClient.Resources.TmIoApiBase
     Type: Type
+- exclude:
+    uidRegex: ^TrackmaniaIo.ApiClient.Utils.ValueConverters
+    Type: Namespace
