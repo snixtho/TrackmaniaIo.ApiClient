@@ -19,4 +19,15 @@ public class MapsResource : TmIoApiBase<MapsResource>
     public Task<TmIoMapInfo?> GetMapAsync(string uid) =>
         WithApiKey()
             .GetJsonAsync<TmIoMapInfo>("/map/{uid}", uid);
+
+    public Task<Stream> DownloadMapAsync(TmIoMapInfo mapInfo)
+    {
+        if (mapInfo.FileUrl == null || mapInfo.FileUrl.Trim() == "")
+            throw new InvalidOperationException("File URL of the map is null or empty.");
+
+        return WithMethod(HttpMethod.Get)
+            .WithBaseUrl(mapInfo.FileUrl)
+            .RequestStreamAsync();
+    }
+
 }

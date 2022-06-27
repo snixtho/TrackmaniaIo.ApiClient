@@ -2,6 +2,6 @@
 
 var tmio = new TmIoApi("Tm.io .NET Api Client", "Discord snixtho#9039");
 
-var totd = await tmio.ManiaPubs.GetManiaPubsAsync();
+var totd = await tmio.Totd.GetTotdAsync();
 
-Console.WriteLine(totd);
+Console.WriteLine("TOTD map name: " + totd.Name);
