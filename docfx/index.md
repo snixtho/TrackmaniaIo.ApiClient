@@ -21,6 +21,9 @@ var totd = await tmio.Totd.GetTotdAsync();
 // do something with the map information
 ```
 
+## Caching & Rate limiting
+By default all requests are cached for 1 minute and without an API key, rate limit is triggered at 40 requests per minute.
+
 ## Examples
 Some examples on the usage of the client can be found [here](https://github.com/snixtho/TrackmaniaIo.ApiClient/tree/master/src/Examples).
 
