@@ -7,5 +7,3 @@ var mapStream = await tmio.Maps.DownloadMapAsync(map);
 
 using var file = File.Create(map.FileName);
 mapStream.CopyTo(file);
-
-    

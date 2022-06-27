@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example1", "Examples\Exampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadMap", "Examples\DownloadMap\DownloadMap.csproj", "{9FA539D8-C443-4DD8-9089-559C9AD8D0F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchPlayer", "Examples\SearchPlayer\SearchPlayer.csproj", "{3BA82527-90FC-4ADD-8728-F16A770A3DAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{9FA539D8-C443-4DD8-9089-559C9AD8D0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FA539D8-C443-4DD8-9089-559C9AD8D0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FA539D8-C443-4DD8-9089-559C9AD8D0F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA82527-90FC-4ADD-8728-F16A770A3DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA82527-90FC-4ADD-8728-F16A770A3DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA82527-90FC-4ADD-8728-F16A770A3DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA82527-90FC-4ADD-8728-F16A770A3DAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2B211095-DDEF-4908-9F9E-7F3AE4AFA685} = {1E4B4290-C5B6-4F67-940B-F46CCC5CD492}
 		{9FA539D8-C443-4DD8-9089-559C9AD8D0F1} = {1E4B4290-C5B6-4F67-940B-F46CCC5CD492}
+		{3BA82527-90FC-4ADD-8728-F16A770A3DAF} = {1E4B4290-C5B6-4F67-940B-F46CCC5CD492}
 	EndGlobalSection
 EndGlobal
