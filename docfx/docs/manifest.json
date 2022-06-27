@@ -1,0 +1,1194 @@
+{
+  "homepages": [],
+  "source_base_path": "E:/projects/dotnet/TrackmaniaIo.ApiClient/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Campaigns.TmIoBasicCampignInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Campaigns.TmIoBasicCampignInfo.html",
+          "hash": "yv/6PI6nN8WY7upTOK3AkuRFN5KV8bNreeedqzsON6c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Campaigns.TmIoBasicCompetitionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Campaigns.TmIoBasicCompetitionInfo.html",
+          "hash": "STc5xCNGrGKJ6cVpnOCU4sL1oeBu0h9LwObDJHkAL/U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Campaigns.TmIoCampaignInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Campaigns.TmIoCampaignInfo.html",
+          "hash": "MHxA5gzFCE1ar+5R8vfKkIgtReIo933PmL98RuTWStQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Campaigns.TmIoCampaignList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Campaigns.TmIoCampaignList.html",
+          "hash": "zuvxBtDmdhX6cXXKLjCIcZFOsYyc2R5Ox3NyUl3KR68="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Campaigns.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Campaigns.html",
+          "hash": "VJiid44gKlt2KE0YS0TOjuQZDi8qyskQvQejYE3Iq2c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Clubs.TmIoClubActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Clubs.TmIoClubActivity.html",
+          "hash": "Uhn5hITohAFxUk4jLGWf51ot/0BOTl0jEbpiRZf1oY8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Clubs.TmIoClubActivityList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Clubs.TmIoClubActivityList.html",
+          "hash": "xmGVQ/e7Fc8z57EVaYYzioPcWhsDt39ntGArYj+tr8Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Clubs.TmIoClubInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Clubs.TmIoClubInfo.html",
+          "hash": "WhXIAe/amLYr1eahqvLUM4sPFTJUWXMLIclkUcroOlU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Clubs.TmIoClubList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Clubs.TmIoClubList.html",
+          "hash": "+Mk59HUvctwRIIGzrgiMxgnpOaDXaoTdxtUCsizLIv4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Clubs.TmIoClubMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Clubs.TmIoClubMember.html",
+          "hash": "0KA6JeI25FjMYvfjea99caeqm2OXz8JzmzabcN0vqOo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Clubs.TmIoClubMemberList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Clubs.TmIoClubMemberList.html",
+          "hash": "LC4GBx9dnLwCsenSTUB5q9z4ERQsC9Bl7F6EAurF5Uc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Clubs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Clubs.html",
+          "hash": "sLntxRbnDV+TjSd3yGxKwfK0bvU2W41S6XCSSHtWebc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Cotd.TmIoCotdBasicCompetitionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Cotd.TmIoCotdBasicCompetitionInfo.html",
+          "hash": "w6NfZGDKxMPC4wtpiiS6Yd15ba4RtdaTeV3Pg0+QcKA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Cotd.TmIoCotdCompetitionList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Cotd.TmIoCotdCompetitionList.html",
+          "hash": "DPd3Nmagbs9KPGMCw6zcdIETqwLdUOftCBQpiqSpTtc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Cotd.TmIoCotdLeaderboard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Cotd.TmIoCotdLeaderboard.html",
+          "hash": "qu7f7zPOBJjCoHC6O3uoUmiLP+nHe3WZ4Zu4KfGKcbE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Cotd.TmIoCotdLeaderboardPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Cotd.TmIoCotdLeaderboardPosition.html",
+          "hash": "xJ3Ujs9wWlUGn9IIGYOZ8C25723F8MVpGri9hRfwiog="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Cotd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Cotd.html",
+          "hash": "C+fBrRe+FUZ5YNJtWqIqfKxD2aLPMKz7zLkhvYuA2Wg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Enums.TmIoClubSorting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Enums.TmIoClubSorting.html",
+          "hash": "1KqwLeieWT/cyXoz/loKGSoINciQ3sgHtLaNXnnUOgc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Enums.TmIoSortingDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Enums.TmIoSortingDirection.html",
+          "hash": "ErFGfhd80Pvp4yoc9a7Gz2Xm7pPuynATIv2TgAmLjqo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Enums.html",
+          "hash": "U+ME3rzMaj3uFLj/B5DAdqntBWo7gPgQGAQsUGdxv+Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.TmIoCompetitionChallengeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.TmIoCompetitionChallengeInfo.html",
+          "hash": "pMvNFIC4vV+oJ3OxCeqmksexox0u6mZt8DIR3LHFOk0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.TmIoCompetitionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.TmIoCompetitionInfo.html",
+          "hash": "oWKaZuVU+XC5gRU9Zfq3uWfIE1GnFR6xQFZg1OxHLWE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.TmIoCompetitionList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.TmIoCompetitionList.html",
+          "hash": "gzN4W5N48t3iGO0ncLiC89h6XIukLNQma1ZEzvdk+ek="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.TmIoCompetitionMatchInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.TmIoCompetitionMatchInfo.html",
+          "hash": "Xmox0WfXNBBZBU/plC1OhAsz+4RCrR+Wb22FyoaHST4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.TmIoCompetitionResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.TmIoCompetitionResult.html",
+          "hash": "4GJ4WItgOPbEdpRZuXJkfaMdW6eNyClxWAfyXjFSwBc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.TmIoCompetitionResultPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.TmIoCompetitionResultPosition.html",
+          "hash": "LPs4H655VF79Hw6FZxPjTF+o1CcX8GDATvXBQY5z87c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.TmIoCompetitionRoundInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.TmIoCompetitionRoundInfo.html",
+          "hash": "ExM0Jm8nu0N5PY6OM6gJuUnbhV8DxdBD2pgSAZR7S2Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Events.html",
+          "hash": "XszCjK5FwJ63xQNmot/8dCHCXkril8PMwrKRl25UOj8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Leaderboards.TmIoLeaderboardInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Leaderboards.TmIoLeaderboardInfo.html",
+          "hash": "u4J1uNh2oJtu/McYWl+Kw1SpoQOEcXYTN1bs6s9PmEQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Leaderboards.TmIoLeaderboardPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Leaderboards.TmIoLeaderboardPosition.html",
+          "hash": "obBO0LokSJQgb2JiHl88JePqVfwisYZPCf/HCiB9kuM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Leaderboards.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Leaderboards.html",
+          "hash": "LX2m4wZx8j5ScpGLscv8ANP1ay4tLllZdHvYW1yOG2s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.ManiaPub.TmIoAd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.ManiaPub.TmIoAd.html",
+          "hash": "BAXIUnPamZKf6kSs8Zu3HSDxgfZS0zKxVbzTx501NJ4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.ManiaPub.TmIoAdList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.ManiaPub.TmIoAdList.html",
+          "hash": "dmJQXLEUpStAKrIAFHLtqhUVVhdT+9szvM7yTj5quV0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.ManiaPub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.ManiaPub.html",
+          "hash": "niwS2ucAJj8OdapbM1FapR9MuDvwcHmWlQbzSMAbV14="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Maps.TmIoMapId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Maps.TmIoMapId.html",
+          "hash": "CT/NtpisJNna51UuC/a2t5wmkNOJv3C+fuFC1jCNW0U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Maps.TmIoMapInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Maps.TmIoMapInfo.html",
+          "hash": "r/t6D+89eVzr1BQkOrHK3uNqQvvJvkBlVOePS15CMEI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Maps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Maps.html",
+          "hash": "RehGIpUNMUr+YBYGZe85eSphk+aYxKog6KX5W/MpH24="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.TmIoDivision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.TmIoDivision.html",
+          "hash": "XO5MaaljLMLVtrEZ2DwUKUqfeNH0Y5/SXDs+MiizEH8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.TmIoMatchmakingInfo-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.TmIoMatchmakingInfo-1.html",
+          "hash": "zl5AUt1nvh1H3ZGbUTA4kEiLf9sMyGmb+nkoMcalz9s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.TmIoMatchmakingInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.TmIoMatchmakingInfo.html",
+          "hash": "4FtV2ef6XuzoPHH4vN1krGF+Z0nJSPOrxVpeN+nfNIs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.TmIoMmDivision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.TmIoMmDivision.html",
+          "hash": "8SG3fa/pdmZuJPFpxuxopFxm5i08spyMMhtSm1T0xCA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.TmIoMmMatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.TmIoMmMatch.html",
+          "hash": "viiuKoOLQHI97DucSllPzN69paRHLH/xAPoFEtw3eCg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.TmIoMmPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.TmIoMmPosition.html",
+          "hash": "u2sdUa2pZF7qah38Eqhz6qsmtGZzUgvdl/aH0vuLItA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.TmIoRoyalDivision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.TmIoRoyalDivision.html",
+          "hash": "GJ2ORPpWfLmFRrxGI1XMdfRiIsBWBjRQfzLzWCQFNqQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Matchmaking.html",
+          "hash": "zXJKacr/gveEa2OP6VJ7Q6PLxKfilmp+nc2pCd8Cgn4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoAccountInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoAccountInfo.html",
+          "hash": "+YpPxkKIDnMByJ4I6E1eNCyWiMJ5SgXg9/4nb0Mi9nc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerBestCotdResultInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerBestCotdResultInfo.html",
+          "hash": "d05ht9DZPmU02Wf5/o/bLOvA4nqSs3L43j21mDjRxtM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerCotdInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerCotdInfo.html",
+          "hash": "/YerdPpLWCcJQGKW8vMypwyzt5iZzW1/1dPLdFNV74Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerCotdParticipationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerCotdParticipationInfo.html",
+          "hash": "n7juJvMHW7SIF6AtbIPRwl9i2UsHMx8afdaIE/lditI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerCotdStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerCotdStats.html",
+          "hash": "v8gvREJ47NvgPhqVbX/DxAvyROMDfV1uPcmoKgskERg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerEntryList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerEntryList.html",
+          "hash": "49U8/85xOepPNJUXLX3n7sGZS318xSf3qaCdJAUW5Tk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerInfo.html",
+          "hash": "ohH5sSjJlSNJwjxENthioTA7MHnhBAzdNOi1Rj1sZ98="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerMatchList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerMatchList.html",
+          "hash": "DM5gGNlWQh9aY3z4f6w2a21wJZU0K0AUygTsVldCKQo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerMetaInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerMetaInfo.html",
+          "hash": "QKCRQb5u2wZabzDQDMXbf+4QIrKKcJ4g5vnmyIw5iFM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerMmInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerMmInfo.html",
+          "hash": "7493jvZxuGxBQvfm/+IwhChvT2BoQ1Z67qwUBnkRO6Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerProfile.html",
+          "hash": "GZrQBo/bgmpBj8X2YEmrU5TaDFnuxXaXeGSkXwFwvaI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerRankList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerRankList-1.html",
+          "hash": "EuQJsPUmFXGn1cqntuwn/kXI6eCaXmXxloQBeyk1s6M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerSearchEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerSearchEntry.html",
+          "hash": "uBpSHLfzQegaiB7nwjK/yxr5hLyyUfFaXzSG7twTu/k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerTrophyGainAchievementInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerTrophyGainAchievementInfo.html",
+          "hash": "VVIY/yzUZNJfTUYO7DQ4SnNOlC6LgwgfVjTIE38TaaE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerTrophyGainDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerTrophyGainDetails.html",
+          "hash": "f30MpVDdf9nrcdb5OlkjeIJ4171S2BM10N4CZBJYDpQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerTrophyGainInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerTrophyGainInfo.html",
+          "hash": "GWds8m/RryrnvGRAUL4r34OU4xQVdfyQrvAKULDDxeE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerTrophyInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoPlayerTrophyInfo.html",
+          "hash": "vsQo9qr0BVfN+tIVjwunbfix/RWFwmzWwUOcdtgFBqs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoTrophyGainList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoTrophyGainList.html",
+          "hash": "O1XgWYu4kvjRY2b7Nxunf3pqTV7XjeaOxTUZ/MS+jfY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoTropyRankPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.TmIoTropyRankPosition.html",
+          "hash": "1Jcb12XhK0VnMmvj7Yb0vpO4DYJ+taYKh6l5gVc0xK0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Players.html",
+          "hash": "u1zCzLM/spf54hfopbE68hyh6K3O265cVg/N/2dpZo4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Rooms.TmIoRoomInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Rooms.TmIoRoomInfo.html",
+          "hash": "ipxZv8PzmPD26JC83FTNZKe1j63Y4wLQqRei6GXMHFg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Rooms.TmIoRoomsList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Rooms.TmIoRoomsList.html",
+          "hash": "ab3wZaF68rdegqzlNlyrPzeP8PpgXm7BkpXmFlX3J48="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Rooms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Rooms.html",
+          "hash": "6OAPwuwQaF/gF0dSV54cC5NMGe7xGWFnW0x+lQhJ5bs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.TmIoMediaInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.TmIoMediaInfo.html",
+          "hash": "kwhAKiEoDKMEBP2v/ChqqS2F9f5w0Nd+kGEuEmlGuGU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.TmIoScriptSettingOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.TmIoScriptSettingOption.html",
+          "hash": "S1qXmJ5LLEfD6TRnUOqbQ6zxyZPvfnnw6u6HdRmpbw8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.TmIoZoneInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.TmIoZoneInfo.html",
+          "hash": "j8DkWO0iW5wUn1s9mcQfm7mxAAWS77s+WjMR9TmJ30Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Totd.TmIoTotdDay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Totd.TmIoTotdDay.html",
+          "hash": "3K4vEL3PmkkvC0VU0aG2iCv6c/A5/MwTgiqZmdbVrf8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Totd.TmIoTotdMonth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Totd.TmIoTotdMonth.html",
+          "hash": "spVOr7wBtCrvBKJjA5cPaJC3v5weNjNnppleVHL/xgM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.Totd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.Totd.html",
+          "hash": "EK3VR003Sm0M9imqcDTFyzYiHDwkd+SERYDtIBzVT2Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Models.html",
+          "hash": "8aHHU3xmta1yPOzBdCt0DLdgDVWzEPFdDJRJ7D5sgB4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Resources.CampaignsResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Resources.CampaignsResource.html",
+          "hash": "y453txoLGfLVUGKg/d+zvX+eVh9jnsGTStrkep3buW0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Resources.ClubsResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Resources.ClubsResource.html",
+          "hash": "koeYbEdAptw3xm5ngipzPb8kUhY6mo/11COn8tgoGDo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Resources.CompetitionResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Resources.CompetitionResource.html",
+          "hash": "rjLi8CfiakG5rDAnE6cztJgGzBxN6l4v3GncenVowI0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Resources.CotdResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Resources.CotdResource.html",
+          "hash": "oV6elS14vcd+hBKKEAqLZ9H756beul3H8xX+fDExe14="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Resources.LeaderboardResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Resources.LeaderboardResource.html",
+          "hash": "/TDYAM7UbgUnsoas9Qj8KWqAkYYWt/jU27xdHhEtjMs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Resources.ManiaPubResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Resources.ManiaPubResource.html",
+          "hash": "SWHzktSatphORn+JFwPfa71FOw5CGGgzvHcUzL2v/rg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Resources.MapsResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Resources.MapsResource.html",
+          "hash": "v0uXMIAAP9KXQ97B0CQyrb4QDz1CeTl5RRF+I6Pt4Fc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Resources.PlayersResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Resources.PlayersResource.html",
+          "hash": "+PudWtHtZI0IhbbteQF/3wQMIFUh6JL6SoPZH8v/6E0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Resources.RoomsResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Resources.RoomsResource.html",
+          "hash": "2ycuJGRryofZh8QXy8jsY9rlq7R4kIfthht+TlCz8e4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Resources.TopPlayersResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Resources.TopPlayersResource.html",
+          "hash": "JKMmFXbPhZ1oRdM8jiPDjxP7QT64QhKkDuMfbEMVQd4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Resources.TotdResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Resources.TotdResource.html",
+          "hash": "LKLBckzwX2FOuqJ4bUNYX9G8/h68SqNF/o9/dS5kDsE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.Resources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.Resources.html",
+          "hash": "/Sb7e5906jnLIrpeBYcdeq2ydS6xajMATXCam47zTmc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.TmIoApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.TmIoApi.html",
+          "hash": "vW5lFzvqVxPU2Sq6SFRIu9yQH8h7g6FjVANp6dfQJZY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TrackmaniaIo.ApiClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TrackmaniaIo.ApiClient.html",
+          "hash": "KD/4aDo+EyjAjZPKe2o31jEH7jXxaIa03Hy8pDQd1V8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "vANl+Cd5VqnW6uiID/bEm1RQXbFIAXHruB+6OCsdbPU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "ZrsjhpbiBSejnVftQkQ52qRFYzW9b+P4dXFyDkG1l9k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "9u2WFPtHVry8QbudoMDBKmXsgcF6ZeIx2v51yGQW74U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "mXqQxUmT9UdcGlgpzV5J1HWM5FEF8DB4DWKOR+v6zGI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "HyPKlJn7d3CaYefh/Km5EFmV+e0VSeTsi7z/9aZEcGo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 2
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 89,
+          "skipped_file_count": 89
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

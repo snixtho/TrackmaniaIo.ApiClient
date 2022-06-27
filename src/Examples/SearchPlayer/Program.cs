@@ -1,6 +1,6 @@
 ﻿using TrackmaniaIo.ApiClient;
 
-var tmio = new TmIoApi("Tm.io .NET Api Client", "Discord snixtho#9039");
+var tmio = new TmIoApi("Tm.io .NET Api Client Example", "<your contact>");
 
 var search = await tmio.Players.SearchPlayersAsync("snix");
 
