@@ -1120,12 +1120,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "KRywGOrPpUgOxus6QlILfUDrJx0xpWR+xzpVXGINVas="
+          "hash": "BxVwwcBVCL1gK9TO1DqMMaIxx1j+s8yBpncJWJgJWJs="
         }
       },
       "is_incremental": false,
@@ -1137,7 +1140,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "HyPKlJn7d3CaYefh/Km5EFmV+e0VSeTsi7z/9aZEcGo="
+          "hash": "x7VXLwTtbBkrX5u210NZ4oWXDo8cKwQW3Upq7pt0bFQ="
         }
       },
       "is_incremental": false,
