@@ -5,18 +5,16 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace TrackmaniaIo.ApiClient.Utils.ValueConverters
-   </title>
+    <title>TrackmaniaIo.ApiClient Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace TrackmaniaIo.ApiClient.Utils.ValueConverters
-   ">
+    <meta name="title" content="TrackmaniaIo.ApiClient Documentation ">
     <meta name="generator" content="docfx 2.59.2.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     
@@ -35,8 +33,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -58,28 +56,31 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
-        </div>
-        <div class="article row grid-right">
+        <div class="article row grid">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="TrackmaniaIo.ApiClient.Utils.ValueConverters">
-  
-  <h1 id="TrackmaniaIo_ApiClient_Utils_ValueConverters" data-uid="TrackmaniaIo.ApiClient.Utils.ValueConverters" class="text-break">Namespace TrackmaniaIo.ApiClient.Utils.ValueConverters
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-  </h3>
-      <h4><a class="xref" href="TrackmaniaIo.ApiClient.Utils.ValueConverters.NullableDatetimeConverter.html">NullableDatetimeConverter</a></h4>
-      <section></section>
-      <h4><a class="xref" href="TrackmaniaIo.ApiClient.Utils.ValueConverters.UnixToDatetimeConverter.html">UnixToDatetimeConverter</a></h4>
-      <section></section>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="trackmaniaioapiclient-documentation">TrackmaniaIo.ApiClient Documentation</h1>
+
+<h2 id="installation">Installation</h2>
+<p>The library can be found on <a href="https://www.nuget.org/packages/TrackmaniaIo.ApiClient">Nuget</a> and can be installed with the dotnet CLI tool:</p>
+<pre><code>dotnet add package TrackmaniaIo.ApiClient
+</code></pre>
+<h2 id="getting-started">Getting Started</h2>
+<p>To start using the client, create and instance of the <code>TmIoApi</code> class. To respect Trackmania.io's API usage guidelines and rules, please provide a unique name of your program as well as a way for Miss to contact you.</p>
+<p>For example:</p>
+<pre><code class="lang-cs">var tmio = new TmIoApi(&quot;My Cool Program&quot;, &quot;my@email.com&quot;);
+</code></pre>
+<p>Using the API is quite simple. Everything is organized into their respective resources. For example to get the current Track Of The Day map information, call the <code>GetTotdAsync</code> method in the Totd resource:</p>
+<pre><code>var totd = await tmio.Totd.GetTotdAsync();
+
+// do something with the map information
+</code></pre>
+<h2 id="caching--rate-limiting">Caching &amp; Rate limiting</h2>
+<p>By default all requests are cached for 1 minute and without an API key, rate limit is triggered at 40 requests per minute. If the rate limit is hit, an exception is thrown.</p>
+<h2 id="examples">Examples</h2>
+<p>Some examples on the usage of the client can be found <a href="https://github.com/snixtho/TrackmaniaIo.ApiClient/tree/master/src/Examples">here</a>.</p>
+<h2 id="api-docs">Api Docs</h2>
+<p>You can find a list of available resources and their methods <a href="/api/TrackmaniaIo.ApiClient.Resources.html">here</a>.</p>
 </article>
           </div>
           
@@ -87,6 +88,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/snixtho/TrackmaniaIo.ApiClient/blob/master/docfx/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <div class="toggle-mode">
@@ -137,11 +141,11 @@
             </div>
           </div>
         </div>
-        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+        <script type="text/javascript" src="styles/toggle-theme.js"></script>
       </footer>    </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
   </body>
 </html>
