@@ -28,4 +28,4 @@ By default all requests are cached for 1 minute and without an API key, rate lim
 Some examples on the usage of the client can be found [here](https://github.com/snixtho/TrackmaniaIo.ApiClient/tree/master/src/Examples).
 
 ## Api Docs
-You can find a list of available resources and their methods [here](/api/TrackmaniaIo.ApiClient.Resources.html).
+You can find a list of available resources and their methods [here](api/TrackmaniaIo.ApiClient.Resources.html).
