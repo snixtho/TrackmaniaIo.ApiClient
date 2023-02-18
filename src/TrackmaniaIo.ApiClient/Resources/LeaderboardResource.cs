@@ -23,7 +23,7 @@ public class LeaderboardResource : TmIoApiBase<LeaderboardResource>
         WithApiKey()
             .WithQueryParam("offset", offset)
             .WithQueryParam("length", length)
-            .GetJsonAsync<TmIoLeaderboardInfo>("/leaderboard/{group}/{uid}", group, uid);
+            .GetJsonAsync<TmIoLeaderboardInfo>("/leaderboard/{uid}", group, uid);
 
     /// <summary>
     /// Get the leaderboard info of a leaderboard.
@@ -36,6 +36,6 @@ public class LeaderboardResource : TmIoApiBase<LeaderboardResource>
         WithApiKey()
             .WithQueryParam("offset", offset)
             .WithQueryParam("length", length)
-            .GetJsonAsync<TmIoLeaderboardInfo>("/leaderboard/{id}", uid);
+            .GetJsonAsync<TmIoLeaderboardInfo>("/leaderboard/map/{id}", uid);
 
 }
